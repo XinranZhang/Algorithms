@@ -7,7 +7,7 @@ package grace.shuati;
  * If target does not exist in source, just return -1.
  */
 
-// Rabin Karp  with time complexity of O(m+n) - m, n are the length of source and target
+// Rabin Karp with time complexity of O(m+n) - m, n are the length of source and target
 public class strStrII {
     public int strStr2(String source, String target) {
         if (source ==  null || target == null) return -1;
