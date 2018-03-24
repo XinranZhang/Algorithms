@@ -11,7 +11,7 @@ import java.util.*;
 
 // can also use a map to track the unique numbers - O(n) time;
 // this method does not need extra space with O(nlogn) time complexity
-public class removeDuplicateNumbersInArray {
+public class RemoveDuplicateNumbersInArray {
     public int deduplication(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

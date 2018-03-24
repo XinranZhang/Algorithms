@@ -5,7 +5,7 @@ package grace.shuati;
  */
 
 // using binary search
-public class lastPositionOfTarget {
+public class LastPositionOfTarget {
     public int lastPosition(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return -1;

@@ -7,7 +7,7 @@ import java.util.*;
  */
 
 // using HashMap
-public class twoSum {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return null;

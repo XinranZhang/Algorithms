@@ -8,7 +8,7 @@ import java.util.*;
 // algorithm: rotate three times:
 // [3, 4, 5, 1, 2] -> [5, 4, 3, 2, 1] -> [1, 2, 3, 4, 5]
 // key is to find where the gap is and write a helper method to reverse the arrayList
-public class recoverRotatedSortedArray {
+public class RecoverRotatedSortedArray {
     public void recoverRotatedSortedArray(List<Integer> nums) {
         for (int i = 0; i < nums.size() - 1; i++) {
             if (nums.get(i) > nums.get(i + 1)) {

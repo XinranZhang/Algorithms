@@ -5,7 +5,7 @@ package grace.shuati;
  * considering only alphanumeric characters and ignoring cases.
  */
 
-public class validPalindrome {
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         if (s.length() == 0) return true;

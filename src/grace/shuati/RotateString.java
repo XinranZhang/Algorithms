@@ -6,7 +6,7 @@ package grace.shuati;
  */
 
 
-public class rotateString {
+public class RotateString {
     public void rotateString(char[] str, int offset) {
         // write your code here
         if (str == null || str.length == 0){

@@ -7,7 +7,7 @@ package grace.shuati;
  */
 
 // sliding window: add the next element and remove the beginning element
-public class windowSum {
+public class WindowSum {
     public int[] winSum(int[] nums, int k) {
         if (nums == null || nums.length == 0 || nums.length < k) {
             return new int[]{};

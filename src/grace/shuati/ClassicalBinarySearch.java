@@ -5,7 +5,7 @@ package grace.shuati;
  */
 
 // use recursion
-public class classicalBinarySearch {
+public class ClassicalBinarySearch {
     public int findPosition(int[] nums, int target) {
         return binarySearch(nums, 0, nums.length - 1, target);
     }

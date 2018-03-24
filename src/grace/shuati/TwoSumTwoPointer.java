@@ -3,7 +3,7 @@ import java.util.*;
 
 // using two pointer
 
-public class twoSumTwoPointer {
+public class TwoSumTwoPointer {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length == 0) return null;
         Arrays.sort(nums);

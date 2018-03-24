@@ -8,7 +8,7 @@ package grace.shuati;
 
 // when first encounter s[left] != s[right], remove either s[left] or s[right] to see if the rest is Palindrome
 // need to know how to proof that
-public class validPalindromeII {
+public class ValidPalindromeII {
     public boolean validPalindrome(String s) {
         int left = 0, right = s.length() - 1;
         while (left < right) {

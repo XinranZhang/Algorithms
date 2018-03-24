@@ -9,7 +9,7 @@ import java.util.Map;
  * (both index1 and index2) are NOT zero-based.
  */
 
-public class twoSumDifferenceEqualsToTarget {
+public class TwoSumDifferenceEqualsToTarget {
     public int[] twoSum7(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
