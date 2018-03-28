@@ -8,19 +8,36 @@ import java.util.*;
 
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] numbers) {
-        // find all a, b pairs such that a+b = -c
-        // iterate through the array for c
-        List<List<Integer>> res = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
+        if (numbers == null || numbers.length == 0) {
+            return new ArrayList<>();
+        }
+        Arrays.sort(numbers);
         for (int i = 0; i < numbers.length; i++) {
-            List<Integer> ans = new ArrayList<>();
-            Map<Integer, Integer> map = new HashMap<>();
-            if (map.containsKey(numbers[i])) {
-                map.put(numbers[i], map.get(numbers[i]) + 1);
-            } else {
-                map.put(numbers[i], 1);
+            if (i == 0 || numbers[i] != numbers[i - 1]) {
+                int start = i + 1, end = numbers.length - 1;
+                while (start < end) {
+                    if (numbers[start] + numbers[end] == - numbers[i]) {
+                        List<Integer> res = Arrays.asList(numbers[i], numbers[start], numbers[end]);
+                        result.add(res);
+                        while (start < end && numbers[start] == numbers[start + 1]) {
+                            start++;
+                        }
+                        while (start < end && numbers[end] == numbers[end - 1]) {
+                            end--;
+                        }
+                        start++;
+                        end--;
+                    }
+                    else if (numbers[start] + numbers[end] > - numbers[i]) {
+                        end--;
+                    } else {
+                        start++;
+                    }
+                }
             }
         }
-
-        return res;
+        return result;
     }
+
 }
