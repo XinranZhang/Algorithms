@@ -5,6 +5,7 @@ package grace.shuati;
  * sort them so that objects of the same color are adjacent, with the colors in the order 1, 2, ... k.
  */
 
+// time complexity O(nlogk)
 public class SortColorII {
     public void sortColors2(int[] colors, int k) {
         if (colors == null || colors.length == 0) {
