@@ -15,6 +15,8 @@ public class SearchA2DMatrix {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return false;
         int row = matrix.length;
         int col = matrix[0].length;
+
+
         int r = 0;
 
         int start = 0, end = row - 1;
@@ -32,14 +34,15 @@ public class SearchA2DMatrix {
         if (matrix[end][0] == target || matrix[start][0] == target) {
             return true;
         }
-        if (matrix[start][col - 1] >= target && matrix[start][0] <= target) {
+        else if (matrix[start][0] <= target && matrix[start][col - 1] >= target) {
             r = start;
         }
-        if (matrix[end][0] <= target && matrix[end][col - 1] >= target) {
+        else if (matrix[end][0] <= target && matrix[end][col - 1] >= target) {
             r = end;
         } else {
             return false;
         }
+
 
         start = 0;
         end = col - 1;
@@ -54,7 +57,6 @@ public class SearchA2DMatrix {
                 start = mid;
             }
         }
-
         if (matrix[r][start] == target || matrix[r][end] == target) {
             return true;
         }
