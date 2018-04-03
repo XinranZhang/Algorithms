@@ -29,6 +29,11 @@ public class TwoSumClosestToTarget {
                 start++;
             }
         }
+        if (start == 0) {
+            return large - target;
+        } else if (end == nums.length - 1) {
+            return target - small;
+        }
         return Math.min(large - target, target - small);
     }
 }
