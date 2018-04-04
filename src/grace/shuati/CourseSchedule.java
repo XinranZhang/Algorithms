@@ -5,8 +5,41 @@ public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if (numCourses == 0 || prerequisites == null || prerequisites.length == 0 || prerequisites[0].length == 0) return true;
         Queue<Integer> queue = new LinkedList<>();
-        // use a list to maintain the pres for each course
-        // use 
+        // use a list to maintain the courses that use this as pres
+        List[] courseList = new ArrayList[numCourses];
+        // use another list to maintain the in-degree of each course
+        int[] degree = new int[numCourses];
+        // add courses to courseList
+        // add degree to degree list
+        for (int i = 0; i < numCourses; i++) {
+            courseList[i] = new ArrayList<Integer>();
+        }
+        for (int i = 0; i < prerequisites.length; i++) {
+            degree[prerequisites[i][0]]++;
+            courseList[prerequisites[i][1]].add(prerequisites[i][0]);
+        }
+        // add the courses with 0 in-degree to the queue
+        int count = 0;
+        for (int i = 0; i < degree.length; i++) {
+            if (degree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+        // use while loop to realize BFS
+        while (!queue.isEmpty()) {
+            int course = queue.poll();
+            count++;
+            int size = courseList[course].size();
+            // -1 from all courses that use course as their pres
+            for (int i = 0; i < size; i++) {
+                int pointer = (int)courseList[course].get(i);
+                degree[pointer]--;
+                if (degree[pointer] == 0) {
+                    queue.offer(pointer);
+                }
+            }
+        }
+        return count == numCourses;
     }
 }
 
