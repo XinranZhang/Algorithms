@@ -17,17 +17,27 @@ import java.util.*;
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        res.add(new ArrayList<Integer>());
-
-        for (int n: nums) {
-            List<List<Integer>> tmp = new ArrayList<>();
-            for (List<Integer> list: res) {
-                List<Integer> a = new ArrayList<>(list); // copy all the existing arraylist over
-                a.add(n); // adding the next item to the copied arraylist
-                tmp.add(a); // add the new arraylist to the temporary list
-            }
-            res.addAll(tmp);
+        if (nums == null) {
+            return res;
         }
+        Arrays.sort(nums);
+        dfs(nums, 0, new ArrayList<Integer>(), res);
         return res;
+    }
+
+    private void dfs(int[] nums, int index, List<Integer> subset, List<List<Integer>> res) {
+        // recursion outlet
+        // 注意加入的是NEW出来的一个subset，如果把SUBSET加进去，之后修改的就是已经加入的这一个
+        if (index == nums.length) {
+            res.add(new ArrayList<Integer>(subset));
+            return;
+        }
+
+        // break down recursion
+        subset.add(nums[index]);
+        dfs(nums, index + 1, subset, res);
+
+        subset.remove(subset.size() - 1);
+        dfs(nums, index + 1, subset, res);
     }
 }
