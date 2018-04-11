@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc5a98a-d467-4a33-b374-f4ef1c27cea4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/LetterCombinationOfAPhoneNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/NQueens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/NQueensII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/NextClosestTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/StringPermutationII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/WordLadderII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/WordPatternII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/WordSearchII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/WordSearchIILeetcode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/grace/shuati/RemoveInvalidParentheses.java" afterPath="$PROJECT_DIR$/src/grace/shuati/RemoveInvalidParentheses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/grace/shuati/WordBreakIILeetcode.java" afterPath="$PROJECT_DIR$/src/grace/shuati/WordBreakIILeetcode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="BinaryTreeSerialization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,31 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NQueens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/grace/shuati/NQueens.java">
+      <file leaf-file-name="WordLadderII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadderII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NextClosestTime.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/grace/shuati/NextClosestTime.java">
+      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermutationsII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/grace/shuati/PermutationsII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="87">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -99,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/grace/shuati/TwoSumClosestToTarget.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/TwoSumGreaterThanTarget.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/KthSmallestNumbersInUnsortedArray.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/TriangleCount.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/PartitionArrayII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/FourSum.java" />
@@ -150,6 +133,10 @@
         <option value="$PROJECT_DIR$/src/grace/shuati/StringPermutationII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/NQueens.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/NQueensII.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/WordPatternII.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/WordSearchIILeetcode.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/WordLadderII.java" />
       </list>
     </option>
   </component>
@@ -406,40 +393,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/TriangleCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/ThreeSumClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/PartitionArrayII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/FourSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/TopologicalSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -503,14 +456,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadderLeetcode.java" />
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/ClosestBinarySearchTreeValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -760,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/PermutationsII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -784,20 +721,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/NQueensII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/NextClosestTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -810,10 +745,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/NextClosestTime.java">
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordSearchIILeetcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="79">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordSearchII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordPatternII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/WordLadderII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
