@@ -1,4 +1,5 @@
 package grace.shuati;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -7,16 +8,44 @@ import java.util.Queue;
  */
 
 public class MergeKSortedArrays {
+    private class Element implements Comparable<Element> {
+        int value;
+        int x;
+        int y;
+        public Element(int value, int x, int y) {
+            this.value = value;
+            this.x = x;
+            this.y = y;
+        }
+
+        @Override
+        public int compareTo(Element o) {
+            return this.value - o.value;
+        }
+    }
+
     public int[] mergekSortedArrays(int[][] arrays) {
-        Queue<Integer> pq = new PriorityQueue<>();
-        for (int[] array: arrays) {
-            for (int num: array) {
-                pq.offer(num);
+        Queue<Element> pq = new PriorityQueue<>();
+        int totalSize = 0;
+
+        for (int i = 0; i < arrays.length; i++) {
+            if (arrays[i].length > 0) {
+                Element ele = new Element(arrays[i][0], i, 0);
+                pq.offer(ele);
+                totalSize += arrays[i].length;
             }
         }
-        int[] results = new int[pq.size()];
-        for (int i = 0; i < results.length; i++) {
-            results[i] = pq.poll();
+        int[] results = new int[totalSize];
+        int index = 0;
+        while (!pq.isEmpty()) {
+            Element curElement = pq.poll();
+            results[index] = curElement.value;
+            index++;
+            if (curElement.y + 1 < arrays[curElement.x].length) {
+                curElement.y = curElement.y + 1;
+                curElement.value = arrays[curElement.x][curElement.y];
+                pq.offer(curElement);
+            }
         }
         return results;
     }

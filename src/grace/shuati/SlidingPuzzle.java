@@ -1,16 +1,15 @@
 package grace.shuati;
 import java.util.*;
 
-public class SlidingPuzzleII {
-
-    public int minMoveStep(int[][] init_state, int[][] final_state) {
+public class SlidingPuzzle {
+    public int slidingPuzzle(int[][] board) {
         Queue<String> queue = new LinkedList<>();
         Set<String> visited =  new HashSet<>();
-        if (init_state == null || init_state.length == 0 || init_state[0].length == 0) {
+        if (board == null || board.length == 0 || board[0].length == 0) {
             return -1;
         }
-        String beginState = matrixToString(init_state);
-        String finalState = matrixToString(final_state);
+        String beginState = matrixToString(board);
+        String finalState = "123450";
         queue.offer(beginState);
         visited.add(beginState);
         int count = 0;
@@ -37,46 +36,13 @@ public class SlidingPuzzleII {
 
     private String matrixToString(int[][] puzzle) {
         StringBuilder result = new StringBuilder();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 3; j++) {
                 result.append(puzzle[i][j]);
             }
         }
         return result.toString();
     }
-
-//    private List<String> getNextState(String beginState) {
-//        List<String> states = new ArrayList<>();
-//        int zeroIndex = beginState.indexOf('0');
-//        if (zeroIndex + 1 <= 8) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex + 1));
-//        }
-//        if (zeroIndex - 1 >= 0) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex - 1));
-//        }
-//        if (zeroIndex - 3 >= 0) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex - 3));
-//        }
-//        if (zeroIndex + 3 <= 8) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex + 3));
-//        }
-//        return states;
-//    }
-//
-//    private String swap(String beginState, int zeroIndex, int nextIndex) {
-//        int first = 0, second = 0;
-//        if (zeroIndex > nextIndex) {
-//            first = nextIndex;
-//            second = zeroIndex;
-//        } else {
-//            first = zeroIndex;
-//            second = nextIndex;
-//        }
-//        String res = beginState.substring(0, first) + beginState.charAt(second) +
-//                beginState.substring(first + 1, second) + beginState.charAt(first)
-//                + beginState.substring((second + 1));
-//        return res;
-//    }
 
     public List<String> getNext(String state) {
         List<String> states = new ArrayList<>();
@@ -90,7 +56,7 @@ public class SlidingPuzzleII {
         for (int i = 0; i < 4; i++) {
             int x_ = x + dx[i];
             int y_ = y + dy[i];
-            if (x_ < 0 || x_ >= 3 || y_ < 0 || y_ >= 3) {
+            if (x_ < 0 || x_ >= 2 || y_ < 0 || y_ >= 3) {
                 continue;
             }
 
