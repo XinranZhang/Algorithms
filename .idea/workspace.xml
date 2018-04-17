@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc5a98a-d467-4a33-b374-f4ef1c27cea4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/BuildPostOfficeII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/Count1InBinary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/FirstUniqueCharacterInAString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/KClosestPoints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/MovingAverage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/grace/shuati/RandomizedSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/grace/shuati/MergeKSortedArrays.java" afterPath="$PROJECT_DIR$/src/grace/shuati/MergeKSortedArrays.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java" afterPath="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="BinaryTreeSerialization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,27 +31,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlidingPuzzleII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java">
+      <file leaf-file-name="RandomizedSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/grace/shuati/RandomizedSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <folding>
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KClosestPoints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/grace/shuati/KClosestPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlidingPuzzle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/grace/shuati/SlidingPuzzle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildPostOfficeII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildPostOfficeII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/grace/shuati/BuildPostOfficeII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -87,12 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/grace/shuati/Subsets.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/SubsetsBacktracking.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/SubsetsII.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/NextPermutation.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/Permutations.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/PermutationsII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/ClosestBinarySearchTreeValueII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/ClosestBinarySearchTreeValueIII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/BinarySearchTreeIterator.java" />
@@ -135,9 +132,15 @@
         <option value="$PROJECT_DIR$/src/grace/shuati/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/MergeKSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/Count1InBinary.java" />
-        <option value="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzle.java" />
         <option value="$PROJECT_DIR$/src/grace/shuati/BuildPostOfficeII.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/MovingAverageFromDataStream.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/MovingAverage.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/FirstUniqueCharacterInAString.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/InsertDeleteGetRandomO1.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/RandomizedSet.java" />
+        <option value="$PROJECT_DIR$/src/grace/shuati/KClosestPoints.java" />
       </list>
     </option>
   </component>
@@ -393,44 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/ConvertBinaryTreeToLinkedListsByDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#195#196#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/ClosestBinarySearchTreeValueIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/RemoveSubstrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -707,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -798,10 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java">
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BuildPostOfficeII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -814,11 +769,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BuildPostOfficeII.java">
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/SlidingPuzzleII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="690">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/MovingAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/FirstUniqueCharacterInAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/BinaryTreeSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/KClosestPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grace/shuati/RandomizedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

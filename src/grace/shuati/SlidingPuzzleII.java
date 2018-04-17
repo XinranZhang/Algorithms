@@ -45,39 +45,6 @@ public class SlidingPuzzleII {
         return result.toString();
     }
 
-//    private List<String> getNextState(String beginState) {
-//        List<String> states = new ArrayList<>();
-//        int zeroIndex = beginState.indexOf('0');
-//        if (zeroIndex + 1 <= 8) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex + 1));
-//        }
-//        if (zeroIndex - 1 >= 0) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex - 1));
-//        }
-//        if (zeroIndex - 3 >= 0) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex - 3));
-//        }
-//        if (zeroIndex + 3 <= 8) {
-//            states.add(swap(beginState, zeroIndex, zeroIndex + 3));
-//        }
-//        return states;
-//    }
-//
-//    private String swap(String beginState, int zeroIndex, int nextIndex) {
-//        int first = 0, second = 0;
-//        if (zeroIndex > nextIndex) {
-//            first = nextIndex;
-//            second = zeroIndex;
-//        } else {
-//            first = zeroIndex;
-//            second = nextIndex;
-//        }
-//        String res = beginState.substring(0, first) + beginState.charAt(second) +
-//                beginState.substring(first + 1, second) + beginState.charAt(first)
-//                + beginState.substring((second + 1));
-//        return res;
-//    }
-
     public List<String> getNext(String state) {
         List<String> states = new ArrayList<>();
         int[] dx = {0, 1, -1, 0};
