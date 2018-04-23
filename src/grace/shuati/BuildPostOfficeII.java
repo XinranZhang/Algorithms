@@ -37,9 +37,10 @@ public class BuildPostOfficeII {
         visited.add(new int[] {x, y});
         int count = 0;
         int distance = 0;
-        int steps = 1;
+        int steps = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
+            steps++;
             for (int j = 0; j < size; j++) {
                 int[] pair = queue.poll();
                 for (int i = 0; i < 4; i++) {
@@ -61,7 +62,6 @@ public class BuildPostOfficeII {
                     }
                 }
             }
-            steps++;
         }
         return Integer.MAX_VALUE;
     }
