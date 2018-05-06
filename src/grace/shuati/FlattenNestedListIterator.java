@@ -2,7 +2,7 @@ package grace.shuati;
 import java.util.Iterator;
 import java.util.*;
 
-public class NestedIterator implements Iterator<Integer> {
+class NestedIterator implements Iterator<Integer> {
      public interface NestedInteger {
          public boolean isInteger();
          public Integer getInteger();
