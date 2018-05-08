@@ -18,7 +18,7 @@ public class SubarraySumClosest {
         Pair[] prefixSum = new Pair[nums.length + 1];
         prefixSum[0] = new Pair(0, 0);
         int prev = 0;
-        for (int i = 1; i <= prefixSum.length; i++) {
+        for (int i = 1; i < prefixSum.length; i++) {
             prefixSum[i] = new Pair(prev + nums[i - 1], i);
             prev = prefixSum[i].sum;
         }
@@ -29,7 +29,7 @@ public class SubarraySumClosest {
             }
         });
         int ans = Integer.MAX_VALUE;
-        for (int k = 1; k <= prefixSum.length; k++) {
+        for (int k = 1; k < prefixSum.length; k++) {
             if (ans > prefixSum[k].sum - prefixSum[k - 1].sum) {
                 ans = prefixSum[k].sum - prefixSum[k - 1].sum;
                 int[] tmp = new int[] {prefixSum[k].index - 1, prefixSum[k - 1].index - 1};
