@@ -3,6 +3,9 @@ import java.util.*;
 
 public class LargestDivisibleSubset {
     public List<Integer> largestDivisibleSubset(int[] nums) {
+        if (nums.length == 0) {
+            return new ArrayList<>();
+        }
         Arrays.sort(nums);
         List<List<Integer>> divisible = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
